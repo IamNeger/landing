@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+  background-image: url("rustbg.jpg");
+  background-size: cover;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.498);
+    text-align: center;
+
+}
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', sans-serif;
+    text-decoration: none; 
+    border-radius: 20px;
+   font-size: 24px;
+   padding-left: 20px;
+   padding-right: 20px;
+   transition: 0.3s;
+}
+.banner{
+    text-align: center;
+    background-image: url("rust.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.banner a{
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid #ffffff;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.628);
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.banner p{
+    width: 60%;
+    margin-left: 40%;
+    text-align: right;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.491),rgb(77, 0, 128));
+    border-radius: 20px;
+    padding: 20px;
+    /* это нужно чтобы пединг не делал шире тег */
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+.about{
+    text-align: center;
+}
+.info{
+    display: inline-block;
+    color: #62008d;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ffffff;
+    border-radius: 20px;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#RUST{
+    margin-left: 30px;
+    vertical-align: middle;
+    border-radius:  20px;
+}
+h3{
+    margin-bottom: 20px;
+}
+.info h5{
+    margin-bottom: 40px ;
+}
+.title{
+    margin: 40px 0 20px;
+}
+.servers h5{
+    text-align: center;
+    color: #8f8f8f;
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 20px;
+}
+.servers{
+    text-align: center;
+}
+.server{
+    box-shadow: 0 0 20px black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 27%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    background-size: cover;
+    font-family: 'Comfortaa', sans-serif;
+}
+.ultimaterust{
+    background-image: url(les.jpg);
+}
+.rustoriaeumain{
+    background-image: url(лес.jpg);
+}
+.EUrustoriaco{
+    background-image: url(Лучистый\ лес.jpg);
+}
+.server ul{
+    background-color: #ffffffbb;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.servers h4{
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px black;
+}
+.youtuber{
+    display: inline-block;
+    width: 25%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.468);
+    margin: 20px;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Comfortaa', sans-serif;
+}
+.youtuber h4:nth-child(3){
+    opacity:  0.5;
+    margin-bottom: 20px;
+}
+.team{
+    text-align: center;
+}
+.youtuber img{
+    border-radius: 110px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.461);
+    width: 176px;
+}
+.youtuber a{
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+h4{
+    color: #790000;
+    font-family: 'Comfortaa', sans-serif;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+input,textarea,button{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 20px rgb(55, 128, 0);
+}
+input,textarea{
+    width: 90%;
+    max-width: 400px;
+
+}
+button{
+   margin-bottom: 100px;
+}
+@media (max-width :600px){
+    h2{
+        font-size: 40px;
+    }
+    .banner p {
+        width: 90%;
+        margin: auto;
+    }
+    .info{
+        margin-bottom: 20px;
+
+    }
+    #RUST{
+        margin-left: 0;
+    }
+    .server{
+        width: 90%;
+    }
+    .youtuber{
+        width: 90%;
+    }
+}
